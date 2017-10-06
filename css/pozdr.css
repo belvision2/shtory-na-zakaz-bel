@@ -1,0 +1,187 @@
+	.pozdr {
+background: url("../images/pozdr.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+border-radius: 7px;
+display: none;
+height: 321px;
+margin: 30px auto auto;
+position: fixed;
+text-align: center;
+width: 837px;
+z-index: 11111;
+    margin-left: 21px;
+}
+.pozdr input{
+	border: medium none;
+	color: #333;
+	font-size: 20px;
+	line-height: 18px;
+	top:201px;
+	font-family:roboto;
+	width: 212px;
+	
+}
+.pozdr .pozdr_name{
+	position:absolute;
+	right: 531px;
+	background:rgba(255,255,255,0);
+}
+
+.pozdr .pozdr_tel{
+	position:absolute;
+	right: 228px;
+	background:rgba(255,255,255,0);	
+}
+
+.pozdr  .btn{
+margin-left: 592px;
+margin-top: 99px;
+width: 166px;
+}
+
+.pozdr .sec{
+bottom: 33px;
+
+font-size: 28px;
+left: 159px;
+position: absolute;
+}
+
+
+.pozdr  .p1_msg{
+font-size: 20px;
+font-weight: lighter;
+left: 51px;
+line-height: 23px;
+position: absolute;
+text-align: center;
+top: 121px;
+width: 730px;
+	
+}
+
+
+.pozdr .header{
+
+font-size: 45px;
+font-weight: bold;
+padding-top: 37px;
+}
+
+.pozdr  .f-close{
+background: url("../images/close2.png") no-repeat;
+cursor: pointer;
+height: 36px;
+position: absolute;
+right: 22px;
+top: 20px;
+width: 36px;
+}
+
+.spasibo {
+    background: url('../images/spasibo.png') no-repeat ;
+    margin: 30px auto auto;
+	height: 406px;
+    position: fixed;
+    text-align: center;
+    width: 407px;
+    z-index: 11111;
+	border-radius:7px;
+	display:none;
+}
+
+.spasibo  .btn{
+	margin-top:75px;
+}
+
+
+.spasibo  .p1_msg{
+	font-size: 21px;
+	font-weight: lighter;
+	position: absolute;
+	text-align: center;
+	top: 78px;
+	width:405px;
+	
+}
+
+
+.spasibo .header{
+	font-size:45px;
+	font-weight:bold;
+	padding-top:30px;
+}
+.spasibo .header {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.spasibo .p1_msg {
+    font-size: 21px;
+    font-weight: lighter;
+    position: absolute;
+    text-align: center;
+    top: 78px;
+    width: 405px;
+}
+.spasibo .btn {
+    margin-top: 75px;
+}
+.pozdr .btn {
+    margin-left: 592px;
+    margin-top: 99px;
+    width: 166px;
+}
+.b_blue2 {
+    background: url("../images/btn_blue2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.btn {
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    height: 41px;
+    line-height: 1em;
+    overflow: hidden;
+    padding-top: 18px;
+    text-align: center;
+    transition: all 0.15s ease-in-out 0s;
+    white-space: nowrap;
+    width: 270px;
+    font-family: officinaserifcregular;
+    text-transform: uppercase;
+}
+.pozdr .f-close {
+    background: url("../images/close2.png") no-repeat;
+    cursor: pointer;
+    height: 36px;
+    position: absolute;
+    right: 22px;
+    top: 20px;
+    width: 36px;
+}
+.pozdr .p1_msg {
+    font-size: 20px;
+    font-weight: lighter;
+    left: 51px;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 121px;
+    width: 730px;
+}
+.black {
+    color: #2d2929;
+}
+
+.pozdr .btn {
+    margin-left: 592px;
+    margin-top: 99px;
+    width: 166px;
+}
+.b_red {
+    background: url('../images/btn_red.png') repeat-x;
+}
+.b_red:hover {
+    background: url('../images/btn_red_h.png') repeat-x;
+}

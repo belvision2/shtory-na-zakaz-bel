@@ -1,0 +1,205 @@
+.carousel  {
+   max-width: 1200px; /* ширина всего блока */
+   margin: 20px auto 35px;
+   width:100%;
+}
+
+.s4 .carousel  {
+	background:url('../img/wood/gal_pic_bg.png') no-repeat;
+   max-width: 1200px; /* ширина всего блока */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:1166px;
+   height:200px;
+
+
+}
+.gal_okna .carousel  {
+   max-width: 1200px; /* ширина всего блока */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:100%;
+}
+
+.k_gal .carousel  {
+   max-width: 1200px; /* ширина всего блока */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:100%;
+}
+
+
+.s4 .carousel-wrapper {
+    margin: 0 59px 10px 59px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:1048px;
+   padding-top: 10px;
+}
+
+.carousel-wrapper {
+   margin: 10px 44px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:1112px;
+}
+
+.gal_okna .carousel-wrapper {
+     margin: 0 44px 10px 48px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:1112px;
+}
+
+.k_gal .carousel-wrapper {
+     margin: 0 44px 10px 48px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:1109px;
+}
+
+.carousel-items {
+   width: 10000px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.s3 .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 365px; /* задаём ширину каждого элемента */
+   position:relative;
+   
+   padding: 10px 10px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+
+}
+.s4 .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 180px; /* задаём ширину каждого элемента */
+   padding: 10px 37px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+.gal_okna .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 275px; /* задаём ширину каждого элемента */
+   padding: 10px 10px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+
+.k_gal .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 213px; /* задаём ширину каждого элемента */
+   padding: 10px 10px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+
+.carousel-block img{
+   /* display:block;*/
+   max-width:365px;
+   max-height:433px;
+}
+ 
+/*********** BUTTONS ***********/
+.s3 .carousel-button-left a, .s3 .carousel-button-right a{
+   width: 32px; 
+   height: 59px; 
+   position: relative;
+   top: 190px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.s4 .carousel-button-left a, .s4 .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 63px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.gal_okna .carousel-button-left a, .gal_okna .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 113px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.k_gal .carousel-button-left a, .k_gal .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 113px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.gal_okna.balkon .carousel-button-left a, .gal_okna.balkon .carousel-button-right a{
+top:70px;
+}
+
+.k_gal .carousel-button-left a, .k_gal .carousel-button-right a{
+top:70px;
+}
+
+.s4 .carousel-button-left a{
+   float: left; 
+   background: url(../img/wood/carousel-left_big.png);
+	left: 9px;   
+}
+
+.s4 .carousel-button-left a:hover{
+	background: url(../img/wood/carousel-left_big.png); 
+	left: 9px;
+}
+
+
+.s4 .carousel-button-right a{
+   float: right;
+   background: url(../img/wood/carousel-right_big.png); 
+   right: 9px;
+}
+
+.s4 .carousel-button-right a:hover{
+   background: url(../img/wood/carousel-right_big.png); 
+   right: 9px;
+}
+
+.carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left.png); 
+}
+
+.carousel-button-left a:hover{
+	background: url(../img/carousel-left_h.png); 
+}
+
+
+.carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right.png); 
+}
+
+.carousel-button-right a:hover{
+   background: url(../img/carousel-right_h.png); 
+}
+
+
+.k_gal .carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left_b.png); 
+}
+
+.k_gal .carousel-button-left a:hover{
+	background: url(../img/carousel-left.png); 
+}
+
+
+.k_gal .carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right_b.png); 
+}
+
+.k_gal .carousel-button-right a:hover{
+   background: url(../img/carousel-right.png); 
+}
+ 
+/*********** SHADOW ***********/
+.shadow{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,76 @@
+
+/* SETTINGS */
+
+#otz_carousel{
+	display: none; /* Start invisible until the plugin is loaded */
+	margin: 0 auto;
+}
+
+/* The frames */
+#otz_carousel li{
+
+}
+
+/* Headers of all frames */
+#otz_carousel h6{
+	margin: 0;
+	line-height: 130%;
+	font-family: sans-serif;
+	font-weight: normal;
+	color: #222;
+}
+
+/* Description text of all frames */
+/* Note that this is the complete text layer, including the header inside */
+#otz_carousel span{
+	font-family: Verdana, sans-serif;
+	line-height: 120%;
+	color: #444;
+	background: #eee3db;
+	margin: 0;
+	padding: 10px 15px 14px;
+}
+
+/* The most frontal item */
+#otz_carousel .front img{
+	margin: 6px; /* Determines the gap between image and frame border */
+}
+#otz_carousel .front h6{
+	font-size: 28px; /* Front frame header */
+}
+#otz_carousel .front span{
+	font-size: 11px; /* Front frame description text */
+}
+
+/* The further back items */
+#otz_carousel .behind img{ /* Determines the gap between image and frame border */
+	margin: 3px;
+}
+#otz_carousel .behind h6{ /* Behind frame headers */
+	font-size: 18px;
+}
+#otz_carousel .behind span{ /* Behind frame description text */
+	font-size: 9px;
+}
+
+/* The furthest back items */
+#otz_carousel img{ /* Determines the gap between image and frame border */
+	margin: 1px;
+}
+#otz_carousel .back h6{ /* Back frames header */
+	font-size: 13px;
+}
+#otz_carousel .back span{ /* Back frame description text */
+	font-size: 9px;
+}
+
+/* That's it for the settings */
+
+.otz_carousel{ margin:0; padding:0; position:relative; z-index:1 }
+.otz_carousel li{ margin:0; padding:0; list-style:none; position:absolute; z-index:1; display:none; border-width:0 }
+.otz_carousel img{ border:0; vertical-align:bottom }
+.otz_carousel span{ display:block; position:absolute; left:0; right:0; bottom:0; text-align:left; cursor:default; margin:0 }
+.otz_carousel h6{ cursor:default }
+.otz_carousel a, .otz_carousel a:hover{ cursor:default; text-decoration:none; outline:none }
+.otz_carousel img, .otz_carousel li, .otz_carousel a{ -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; -webkit-user-drag:none; -moz-user-drag:none; user-drag:none }
+.otz_carousel.rtl h6, .otz_carousel.rtl span{ text-align:right }
