@@ -27,6 +27,7 @@ label {font-size:40px;}
   border-image: url(http://xn-----7kcba4bcwwiww1f1b.xn--90ais/ramka.png) 245 452 380 1335 / 98px 180.8px 152px 534px repeat round;
   margin-bottom:50px;
 }*/
+#main {display: none}
 
 #b1{
 display:inline-block;
@@ -487,4 +488,4 @@ html.si-lock{overflow:hidden !important;}
 .si-page-message{display:block;position:fixed;width:101%;height:0;top:50%;left:50%;background:#ffc728;opacity:0;visibility:hidden;z-index:300;box-shadow:0 0 10px #000;-webkit-transform:translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%);transform: translateX(-50%) translateY(-50%);-webkit-transition:all 0.5s ease-out 0s;-moz-transition:all 0.5s ease-out 0s;-o-transition:all 0.5s ease-out 0s;transition:all 0.5s ease-out 0s;}
 	.si-page-message.show{height:200px;opacity:1;visibility:visible;-webkit-transition:all 0.5s ease-out 0s;-moz-transition:all 0.5s ease-out 0s;-o-transition:all 0.5s ease-out 0s;transition:all 0.5s ease-out 0s;}
 	.si-page-message-inner{display:table-cell;opacity:0;height:200px;width:1920px;text-align:center;vertical-align:middle;font-size:30px;line-height:36px;-webkit-transition:all 0.5s ease-out 0s;-moz-transition:all 0.5s ease-out 0s;-o-transition:all 0.5s ease-out 0s;transition:all 0.5s ease-out 0s;}
-		.si-page-message-inner.show{opacity:1;-webkit-transition:all 0.5s ease-out 0.5s;-moz-transition:all 0.5s ease-out 0.5s;-o-transition:all 0.5s ease-out 0.5s;transition:all 0.5s ease-out 0.5s;} 
+		.si-page-message-inner.show{opacity:1;-webkit-transition:all 0.5s ease-out 0.5s;-moz-transition:all 0.5s ease-out 0.5s;-o-transition:all 0.5s ease-out 0.5s;transition:all 0.5s ease-out 0.5s;}
